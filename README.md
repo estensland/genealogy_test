@@ -1,4 +1,4 @@
-==README
+====================README
 
 This is a repo for my messing with and working with the genealogy gem and family tree generation. 
 
