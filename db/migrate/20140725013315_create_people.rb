@@ -6,6 +6,8 @@ class CreatePeople < ActiveRecord::Migration
       t.integer :mother_id
       t.string :sex
       t.integer :current_spouse_id
+      t.datetime :bdate
+      t.datetime :death_date
       t.timestamps
     end
   end
