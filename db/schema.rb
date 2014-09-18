@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20140725013315) do
     t.integer  "mother_id"
     t.string   "sex"
     t.integer  "current_spouse_id"
-    t.datetime "bdate"
+    t.datetime "birth_date"
     t.datetime "death_date"
     t.datetime "created_at"
     t.datetime "updated_at"
