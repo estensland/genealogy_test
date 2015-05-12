@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20140725013315) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "people", force: true do |t|
+  create_table "people", force: :cascade do |t|
     t.string   "name"
     t.integer  "father_id"
     t.integer  "mother_id"
